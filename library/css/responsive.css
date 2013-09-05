@@ -1076,6 +1076,7 @@
         display: block;
     }
     .navbar-static .navbar-inner {
+        background: none repeat scroll 0 0 #E6DEC2;
         padding-left: 10px;
         padding-right: 10px;
     }

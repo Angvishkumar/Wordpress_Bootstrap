@@ -44,9 +44,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 }
 
+
+.h2 > a{
+    font-family: 'Delius', cursive;
+    font-size: 24px;
+    color: #43281f;
+    text-decoration: none;
+}
 /* layout */
 
 body{
+    font-family: 'Delius', cursive;
     padding-top: 0;
 }
 
@@ -55,8 +63,13 @@ body{
 body.admin-bar .navbar-fixed-top{ 
     top: 28px; 
 }
-
+.navbar-inner{
+    color: #43281f;
+    background: none repeat scroll 0 0 #E6DEC2;
+}
 .navbar .brand{
+    color: #43281f;
+    background: none repeat scroll 0 0 #E6DEC2;
     color: #000;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
     font-weight: bold !important;
@@ -119,8 +132,9 @@ input, textarea, select, .uneditable-input {
 
 #main article{
     margin-bottom: 18px;
-    border-bottom: 1px solid #eeeeee;
-    padding: 0 0 9px;
+    border: 2px dashed #43281f !important;
+    padding: 0 10px;
+    background: #e6dec2;
 }
 
 #main article footer{
@@ -603,9 +617,10 @@ li.previous a:hover:before{
 
 /* change default form padding for search */
 
-.widget_search{
-    background: #21759b;
-    border-radius: 5px;
+.widget{
+    background: none repeat scroll 0 0 #e6dec2;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 0;
 }
 .widget_search form{
     padding-left: 5px;
