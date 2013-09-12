@@ -590,7 +590,7 @@ li.previous a:hover:before{
 }
 
 .widgettitle{
-    margin-bottom: 9px;
+    margin-bottom: 9px;text-align: center;
 }
 
 #tag-cloud{
@@ -764,4 +764,12 @@ blockquote.pull-left{
         padding-left: 0;
         padding-right: 0;
     }
+}
+select {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  margin: 0 40px;
+  padding: 0;
+  text-align: center;
+  width: 220px;
 }
